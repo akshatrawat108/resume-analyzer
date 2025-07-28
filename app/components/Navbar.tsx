@@ -2,15 +2,14 @@ import {Link} from "react-router";
 
 const Navbar = () => {
     return (
-        <nav className={"main-section"}>
+        <nav className="navbar">
             <Link to="/">
-                <p className={"text-2xl font-bold text-gradient"}>CVLens</p>
+                <p className="text-2xl font-bold text-gradient">CV LENS</p>
             </Link>
-            <Link to={"/upload"} className={"primary-button w-fit"}>
+            <Link to="/upload" className="primary-button w-fit">
                 Upload Resume
             </Link>
         </nav>
-    );
-};
-
-export default Navbar;
+    )
+}
+export default Navbar
