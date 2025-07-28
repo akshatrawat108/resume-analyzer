@@ -1,87 +1,86 @@
-# Welcome to React Router!
+<h1 align="center">AI Resume Analyzer</h1>
 
-A modern, production-ready template for building full-stack React applications using React Router.
+## 📋 <a name="table">Table of Contents</a>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+1. ✨ [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
 
-## Features
+## <a name="introduction">✨ Introduction</a>
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+Build an AI-powered Resume Analyzer with React, React Router, and Puter.js! Implement seamless auth, upload and store resumes, and match candidates to jobs using smart AI evaluations. Get custom feedback and ATS scores tailored to each listing—all wrapped in a clean, reusable UI.
 
-## Getting Started
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-### Installation
+- **[React](https://react.dev/)**
 
-Install the dependencies:
+- **[React Router v7](https://reactrouter.com/)**
+
+- **[Puter.com](https://jsm.dev/resumind-puter)**
+
+- **[Puter.js](https://jsm.dev/resumind-puterjs)**
+
+- **[Tailwind CSS](https://tailwindcss.com/)**
+
+- **[TypeScript](https://www.typescriptlang.org/)**
+
+- **[Vite](https://vite.dev/)**
+
+- **[Zustand](https://github.com/pmndrs/zustand)**
+
+
+## <a name="features">🔋 Features</a>
+
+👉 **Easy & convenient auth**: Handle authentication entirely in the browser using Puter.js—no backend or setup required.
+
+👉 **Resume upload & storage**: Let users upload and store all their resumes in one place, safely and reliably.
+
+👉 **AI resume matching**: Provide a job listing and get an ATS score with custom feedback tailored to each resume.
+
+👉 **Reusable, modern UI**: Built with clean, consistent components for a great-looking and maintainable interface.
+
+👉 **Code Reusability**: Leverage reusable components and a modular codebase for efficient development.
+
+👉 **Cross-Device Compatibility**: Fully responsive design that works seamlessly across all devices.
+
+👉 **Modern UI/UX**: Clean, responsive design built with Tailwind CSS and shadcn/ui for a sleek user experience.
+
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/akshatrawat108/resume-analyzer.git
+cd resume-analyzer
+```
+
+**Installation**
+
+Install the project dependencies using npm:
 
 ```bash
 npm install
 ```
 
-### Development
-
-Start the development server with HMR:
+**Running the Project**
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
-## Building for Production
 
-Create a production build:
 
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
